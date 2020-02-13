@@ -24,9 +24,9 @@ Decorator::~Decorator()
 	cout << "Decorator destoryed" << endl;
 }
 
-double Decorator::getWeight(double weight)
+string Decorator::getType(string type)
 {
-	cout << "Weight from decorator." << endl;
-	_weight += weight;
-	return _decorator->getWeight(_weight);
+	cout << "Type from decorator." << endl;
+
+	return _decorator->getType(_type);
 }
