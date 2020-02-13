@@ -6,6 +6,8 @@
 
 // Glyphs class, formatting class, recursive compositon, composition and compositor, decorator
 
+// it is not the main object that decorates itself but the decorator that adds features to the main object
+
 
 #include <memory>
 #include <iostream>
